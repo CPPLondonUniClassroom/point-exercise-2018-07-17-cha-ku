@@ -1,4 +1,4 @@
-
+#include <ostream>
 
 #ifndef WEEK11_POINT_EXERCISE_POINT_HPP
 #define WEEK11_POINT_EXERCISE_POINT_HPP
