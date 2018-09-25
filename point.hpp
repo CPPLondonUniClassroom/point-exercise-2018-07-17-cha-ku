@@ -23,7 +23,6 @@ point operator+(const point& lhs, const point& rhs);
 
 point operator-(const point& lhs, const point& rhs);
 
-
 std::ostream& operator<<(std::ostream& os, const point& val);
 
 #endif //WEEK11_POINT_EXERCISE_POINT_HPP

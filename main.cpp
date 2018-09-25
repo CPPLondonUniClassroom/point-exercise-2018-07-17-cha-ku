@@ -2,6 +2,7 @@
 #include "point.hpp"
 
 #include <cassert>
+#include <iostream>
 
 int main()
 {

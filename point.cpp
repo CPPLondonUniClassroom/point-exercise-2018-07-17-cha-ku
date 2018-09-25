@@ -15,7 +15,7 @@ bool operator!=(const point& lhs, const point& rhs)
 {
     //Better to do it this way - 
     return !(lhs == rhs);
-    // Rather than:
+    //Rather than
     //return lhs.x != rhs.x ||
     //        lhs.y != rhs.y;
 }
