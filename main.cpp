@@ -46,7 +46,7 @@ int main()
 
     //Test operator +=
     {
-        const point p1{10, 20};
+        point p1{10, 20};
         const point p2{2, 3};
         const point result{12, 23};
         p1 += p2;
@@ -55,7 +55,7 @@ int main()
 
     //Test operator -=
     {
-        const point p1{10, 20};
+        point p1{10, 20};
         const point p2{2, 3};
         const point result{8, 17};
         p1 -= p2;

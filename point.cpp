@@ -49,6 +49,6 @@ point& point::operator-=(const point& val)
 
 std::ostream& operator<<(std::ostream& os, const point& val)
 {
-    os << val.x << " , " << val.y ;
+    os << '(' << val.x << " , " << val.y << ')' ;
     return os;
 }
